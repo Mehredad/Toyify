@@ -6,7 +6,6 @@ All development in this repository follows a **structured specification-driven a
 
 The OpenSpec system lives in the project root under `openspec/`, acting as the single source of truth for all architectural decisions, feature specifications, and development guidelines.
 
-
 ## 2. Required Context Files
 
 Before writing ANY code, every AI assistant and developer **MUST** read and understand the following documents in this order:
@@ -30,7 +29,6 @@ Before writing ANY code, every AI assistant and developer **MUST** read and unde
 9. **`openspec/spec/archived/`** → Completed features (reference only, immutable)
 
 **Golden Rule:** These documents together define how the application must be built and maintained. Code that violates these documents will be rejected.
-
 
 ## 3. Core Principles
 
@@ -396,4 +394,3 @@ Every implementation must pass this checklist:
 #### Code Quality
 
 - [ ] TypeScript types are properly defined (no `any` types)
-
